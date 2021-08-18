@@ -1,0 +1,7 @@
+{
+    "port": "8080",
+    "ssl": false,
+    "prefix": "/BYPASS/",
+    "localAddresses": [],
+    "blockedHostnames": ["*google.com", "*.xxx", "*.gov", "*.edu", "*.io" ]
+}
