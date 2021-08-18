@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<style>
+	body {
+		font-family: "Noto Sans JP";
+		font-size: "25px";
+		text-align: center;
+		background-color: #222;
+	}
+  @keyframes change {
+    from {
+      
+      background-color: #999999;
+    }
+    to {
+      background-color: #FFF;
+    }
+  }
+  @keyframes change1 {
+    from { 
+      
+      color: #999999;
+    }
+    to {
+      color: #FFF;
+    }
+  }
+	#url {
+    outline: none;
+    animation: change 1500ms 1 linear forwards;
+		margin-top: 20%;
+		font-family: "Noto Sans JP";
+    font-size: 15px;
+    width: 200px;
+    color: #222;
+    height: 45px;
+    border-radius: 28px;
+	} 
+  
+	#intro {
+    animation: change1 1500ms 1 linear forwards;
+		font-family: "Noto Sans JP";
+		color: #FFF;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+		position: absolute;
+		width: 400px;
+		right: 35.5%;
+		top: 23%;
+	}
+
+</style>
+
+<body>
+  <title>OMEGA</title>
+	<div class="wrapper">
+		<header>
+			<div id="intro">
+				De<span>blo</span>ck<span>It</span> pro<span>xy</span></div>
+            </header>
+            <div class="container">
+                <div class="form">
+                    <input placeholder="https://example.org/" id="url" type="text" />
+                </div>
+            </div>
+        </div>   
+        <script src="/assets/main.js"></script>
+    </body>
+</html>
